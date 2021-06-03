@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+  href="https://unpkg.com/sanitize.css"
+  rel="stylesheet"
+/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+  <h1 class="h-logo">クリ★スタ</h1>
+  <nav class="h-nav">
+    <ul class="h-ul">
+      <li class="h-li"><a href="#about">About</a></li>
+      <li class="h-li"><a href="#service">Service</a></li>
+      <li class="h-li"><a href="#news">Contents</a></li>
+    </ul>
+  </nav>
+</header>
+  <div class="hamberger">
+    <input id="hamberger-check" type="checkbox">
+    <label for="hamberger-check" class="hambergerbtn "><span></span></label>
+    <label for="hamberger-check" class="close"></label>
+    
+    <div class="hamberger-menu">  
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    
+  </div>
+
+  <main class="main">
+    <div class="main-visual">
+      <div class="main-logo">Cresta Design.</div>
+    </div>
+  </main>
+  <div class="container">
+    <section class="about" id="about">
+      <h2 class="about_h2">About</h2>
+      <h3 class="s-h3">ミニマルで <br>
+        洗練されたデザインを。</h3>
+        <p class="s-p">近年、ミニマルなデザインが流行しています。そこで弊社では、クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実現させることで解決のサポートを致します。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの展開等しっかりとヒアリングを行なった上でご提案させて頂きます。</p>
+    </section>
+
+    <section class="service" id="service">
+      <h2 class="s-h2">Service</h2>
+      <div class="flexbox">
+        <img src="img/service-image@2x.jpg" alt="">
+        <div class="textbox">
+          <h3 class="s-h3">リリース時のサポートで <br>
+            サービスのブランディングを</h3>
+            <p class="s-p">弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。</p>
+        </div>
+      </div>
+      <div class="flexbox reverse">
+        <img src="img/service-image02@2x.jpg" alt="">
+        <div class="textbox right">
+          <h3 class="s-h3">リリース後のサポートで <br>
+            効果を最大化させる</h3>
+            <p class="s-p">弊社では、リリース後もサポートさせて頂きます。サービスはリリース後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="news" id="news">
+      <h2 class="s-h2">News</h2>
+       <ul class="news-menu">
+         <li class="menu-li"> 
+           <a href="">
+             <img src="img/card-image1@2x.jpg" alt="">
+             <p class="li-p">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>        
+           </a>         
+         </li>
+         <li class="menu-li">    
+           <a href="">
+             <img src="img/card-image2@2x.jpg" alt="">
+             <p class="li-p">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>         
+           </a>   
+         </li>
+         <li class="menu-li">         
+           <a href="">
+             <img src="img/card-image3@2x.jpg" alt="">
+             <p class="li-p">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>         
+            </a>
+          </li>
+       </ul>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="contact_h2">お問い合わせ</h2>
+      <form action="">
+        <div class="form-container">
+          <label for="name">担当者名</label>
+          <input type="text" id="name">
+          <label for="number">電話番号</label>
+          <input type="text" id="number">
+          <label for="email">メールアドレス</label>
+          <input type="text" id="email">
+          <label for="contact">お問い合わせ内容</label>
+          <textarea name="" id="contact" cols="30" rows="10"></textarea>
+          <input type="submit" value="送信" class="subbtn">
+        </div>
+      </form>
+      
+    </section>
+  </div>
+  <footer class="footer">
+    <p class="f-p">&copy; crest.design all rights reserved</p>
+  </footer>
+
+  <script> </script>
+</body>
+</html>
